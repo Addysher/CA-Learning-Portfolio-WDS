@@ -1,0 +1,43 @@
+* {
+    background-color: aliceblue;
+}
+
+body {
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+.container {
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.colour-container, .font-container, .text-container {
+    display: contents;
+    text-align: center;
+    background-color: transparent;
+}
+
+.box {
+    margin: 10px auto;
+    padding: 10px 100px;
+    border: 2px solid gray;
+}
+
+.red{
+    background-color: rgb(255, 0, 0);
+}
+
+.green{
+    background-color: rgb(0, 255, 0);
+}
+
+.blue{
+    background-color: rgb(0, 0, 255);
+    color: aliceblue;
+}
+
+.font1 {
+    border: 2px solid red;
+}
